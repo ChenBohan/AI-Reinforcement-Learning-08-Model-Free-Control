@@ -52,6 +52,8 @@ Model-free control can solve these problems
      
 - GLIE Monte-Carlo Contro
 
+<img src="https://github.com/ChenBohan/AI-Reinforcement-Learning-08-Model-Free-Control/blob/master/readme_img/GLIE%20Monte-Carlo%20Control.png" width = "70%" height = "70%" div align=center />
+
 ### Temporal-difference (TD)
 
 - Temporal-difference (TD) learning has several advantages over Monte-Carlo (MC)
@@ -63,6 +65,14 @@ Model-free control can solve these problems
   - Every time-step:
     - Policy evaluation Sarsa, Q ≈ qπ
     - Policy improvement e-greedy policy improvement
+
+<img src="https://github.com/ChenBohan/AI-Reinforcement-Learning-08-Model-Free-Control/blob/master/readme_img/n-Step%20Sarsa.png" width = "70%" height = "70%" div align=center />
+
+<img src="https://github.com/ChenBohan/AI-Reinforcement-Learning-08-Model-Free-Control/blob/master/readme_img/Forward%20View%20Sarsa(%CE%BB).png" width = "70%" height = "70%" div align=center />
+
+<img src="https://github.com/ChenBohan/AI-Reinforcement-Learning-08-Model-Free-Control/blob/master/readme_img/Backward%20View%20Sarsa(%CE%BB).png" width = "70%" height = "70%" div align=center />
+
+<img src="https://github.com/ChenBohan/AI-Reinforcement-Learning-08-Model-Free-Control/blob/master/readme_img/Sarsa(%CE%BB)%20Algorithm.png" width = "70%" height = "70%" div align=center />
     
 ## Off-Policy Learning
 
