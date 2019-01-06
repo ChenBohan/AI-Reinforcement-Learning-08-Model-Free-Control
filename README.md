@@ -14,13 +14,15 @@ Model-free control can solve these problems
     - “Look over someone’s shoulder”
     - Learn about policy π from experience sampled from µ
 
-### On policy
+## On policy
 
 - Generalised Policy Iteration (Refresher)
   - Policy evaluation Estimate vπ
     - e.g. Iterative policy evaluation
   - Policy improvement Generate π' ≥ π
     - e.g. Greedy policy improvement
+    
+### Monte-Carlo
 - Policy Iteration With **Monte-Carlo Evaluation**
   - Policy evaluation: Monte-Carlo policy evaluation V = vπ
   - Policy improvement: Greedy policy improvement
@@ -50,6 +52,8 @@ Model-free control can solve these problems
      
 - GLIE Monte-Carlo Contro
 
+### Temporal-difference (TD)
+
 - Temporal-difference (TD) learning has several advantages over Monte-Carlo (MC)
   - Lower variance
   - Online
@@ -59,3 +63,8 @@ Model-free control can solve these problems
   - Every time-step:
     - Policy evaluation Sarsa, Q ≈ qπ
     - Policy improvement e-greedy policy improvement
+    
+## Off-Policy Learning
+
+TODO...
+
