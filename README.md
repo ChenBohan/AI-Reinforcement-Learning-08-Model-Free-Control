@@ -1,6 +1,10 @@
 # AI-Reinforcement-Learning-08-Model-Free-Control
 Lecture 5: Model-Free Control by David Silver
 
+Website: http://www0.cs.ucl.ac.uk/staff/D.Silver/web/Teaching.html
+
+Videos: https://www.bilibili.com/video/av32149008/?p=4
+
 For most of these problems, either:
   - MDP model is unknown, but experience can be sampled
   - MDP model is known, but is too big to use, except by samples
